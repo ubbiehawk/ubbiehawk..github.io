@@ -1,0 +1,149 @@
+body {
+    background-image: url('Wallpaper1.jpg');
+    font-family:sans-serif;
+
+  }
+  h2{
+    text-align: center;
+  }
+img{
+    padding: 25px;
+    width: 20%;
+   border-radius: 50%;
+}
+li{
+    padding: 10px;
+}
+hr{
+    color: black;
+}
+span{
+    font-weight: bold;
+    color: rgb(222, 67, 67);
+}
+.dreams {
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.dreams li {
+    list-style: none;
+}
+
+.dreams li.bold {
+    font-weight:normal;
+}
+ /* Start of Table Properites */
+.table-content th{
+    background-color: #100f0f00;
+    padding: 5px;
+   
+}
+.table-content td{
+    text-align: center;
+    padding: 8px;
+   
+}
+.table-content tr:nth-child(even){
+    background-color: rgb(237, 241, 243);
+}
+.table-content tr:nth-child(odd) {
+    background-color: rgb(157, 157, 157);
+}
+.table-content{
+    border: solid red 5px;
+   border-collapse: collapse;
+   width: 100%;
+   border-radius: 10px;
+   overflow: hidden;
+}
+  /* End of Table Properites */
+
+.box{
+          margin: 20px;
+          background-color: lightblue;
+          float: left;
+}
+#header{
+    background-color: rgb(73, 71, 71);
+    
+    text-align: center;
+}
+
+#content{
+background-color: beige;
+    width: 650px;
+    border: 4px solid rgb(122, 122, 108);
+    border-radius: 10px;
+    float: left;
+    
+    
+}
+#sidebar-right {
+    text-align: center;
+    border: 3px solid #333;
+    /* Dark gray border */
+    background-color: #bbb0b0;
+    /* Light gray background */
+    width: 300px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    float: right;
+}
+#left-trace{
+    color: rgb(122, 122, 121);
+   font-size: 50px;
+    position: absolute;
+    left: 10%;
+    top: 11%;
+}
+#right-trace {
+    color: rgb(122, 122, 121);
+    font-size: 50px;
+    position: absolute;
+    right: 10%;
+    top: 11%;
+}
+#sidebar-left{
+    text-align: center;
+    border: 3px solid #333;
+        /* Dark gray border */
+        background-color: #bbb0b0;
+        /* Light gray background */
+        width: 300px;
+        border-radius: 10px;
+   
+    width: 300px;
+}
+#special{
+    color: aqua;
+    background-color: azure;
+    
+}
+#footer{
+    background-color: rgb(73, 71, 71);
+    text-align: center;
+    width: auto;
+    float: right;
+    width: 120%;
+    height: min-content
+}
+
+#quote{
+    color: rgb(164, 160, 160);
+    font-weight: bold;
+    font-style: italic;
+    font-size:xx-large;
+}
+a{
+    font-weight: bold;
+}
+a:visited{
+    color: black
+}
+/* Change color of links when hovered over */
+a:hover{
+    color: blue;
+}
